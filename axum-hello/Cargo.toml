@@ -1,0 +1,19 @@
+[package]
+name = "axum-hello"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "hello"
+path = "src/main.rs"
+
+[dependencies]
+axum = "0.7.9"
+tokio = { version = "1.42.0", features = ["full"] }
+
+[profile.release]
+strip = true
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"

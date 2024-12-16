@@ -1,6 +1,6 @@
 # axum-actixweb-hello
 
-axumとActix Webで「Hello, world!」を試したものになります。  
+Rust製WebフレームワークであるaxumとActix Webで「Hello, world!」を試したものになります。  
 以下で起動等ができます。  
 
 ```sh

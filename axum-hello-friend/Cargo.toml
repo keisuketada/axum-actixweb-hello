@@ -1,0 +1,9 @@
+[package]
+name = "axum-hello-friend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+serde = { version = "1.0.216", features = ["serde_derive"] }
+tokio = { version = "1.42.0", features = ["full"] }
